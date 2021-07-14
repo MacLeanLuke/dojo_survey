@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Luke's Fruit Store</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="static/assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="static/assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Sidebar -->
+    <section id="sidebar">
+      <div class="inner">
+        <nav>
+          <ul>
+            <li><a href="#intro">Luke's Consultation Services</a></li>
+            <li><a href="#three">Complementary Consultation</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Intro -->
+      <section id="intro" class="wrapper style1 fullscreen fade-up">
+        <div class="inner">
+          <h1>Luke's Consultation Services</h1>
+          <p>
+            Please use this app to request a complementary, initial consultation on your web project. 
+          </p>
+        </div>
+      </section>
+
+      <!-- Three -->
+      <section id="three" class="wrapper style1 fade-up">
+        <div class="inner">
+          <h2>Tell me about your Web Project</h2>
+          <div class="split style1">
+            <section>
+              <form method="POST" action="/checkout">
+                <div class="fields">
+                  <div class="field half">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="first_name" id="name" />
+                  </div>
+                  <div class="field half">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="last_name" id="email" />
+                  </div>
+                  <div class="field half">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" />
+                  </div>
+                  <div class="field">
+                    <label for="message">Location</label>
+                    <select name="location">
+                      <option value="Dallas">Dallas</option>
+                      <option value="Chicago">Chicago</option>
+                      <option value="New York">New York</option>
+                      <option value="Los Angeles">Los Angeles</option>
+                      <option value="Denver">Denver</option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <label for="message">Project Language</label>
+                    <select name="language">
+                      <option value="Python">Python</option>
+                      <option value="Javascript">Javascript</option>
+                      <option value="Ruby">Ruby</option>
+                      <option value="C#">C#</option>
+                    </select>
+                  </div>
+
+                  <div class="field">
+                    <label for="message">Comments</label>
+                    <textarea name="message" id="message" rows="5"></textarea>
+                  </div>
+                </div>
+                <ul class="actions">
+                  <li>
+                    <button class="button submit" type="submit">
+                      Submit
+                    </button>
+                  </li>
+                </ul>
+              </form>
+            </section>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper style1-alt">
+      <div class="inner">
+        <ul class="menu">
+          <li>&copy; Untitled. All rights reserved.</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="static/assets/js/jquery.min.js"></script>
+    <script src="static/assets/js/jquery.scrollex.min.js"></script>
+    <script src="static/assets/js/jquery.scrolly.min.js"></script>
+    <script src="static/assets/js/browser.min.js"></script>
+    <script src="static/assets/js/breakpoints.min.js"></script>
+    <script src="static/assets/js/util.js"></script>
+    <script src="static/assets/js/main.js"></script>
+  </body>
+</html>
